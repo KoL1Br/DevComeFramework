@@ -1,0 +1,9 @@
+  Test framework for DevCom.
+
+  Creating two main folders -  "Pages" and "Tests".
+  Create BasePage and BaseTest.
+  Url and Xpath in properties.
+  Create Class PropertyReader for get properties
+  Create folder WebDriverFactory with drivers for two browsers FireFox and Chrome.(will be good extend)
+  Tests run command "mvn test".
+

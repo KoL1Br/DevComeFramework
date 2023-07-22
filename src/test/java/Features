@@ -1,0 +1,10 @@
+@SmokeFeature
+Feature: Google Search
+
+  @Test
+  Scenario: Search for YouTube and verify the YouTube page
+
+    Given User is on the Google homepage
+    When User searches for "YouTube"
+    And User clicks on the YouTube link
+    Then User should be redirected to the YouTube page
